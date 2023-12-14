@@ -34,12 +34,31 @@
     color: black;
     outline: none;
     font-size: 1rem;
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
     height: 32px;
     width: 100%;
     padding: 12px;
-    margin: 12px 0;
+    margin: 12px;
 }
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchButton{
+    outline: none;
+    border: none;
+    position: relative;
+    left: -12px;
+    background:black;
+    color: white;
+    width: 30%;
+    height: 32px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
 
 .box {
     display: flex;
